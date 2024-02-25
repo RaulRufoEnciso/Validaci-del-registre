@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="myForm" action="/action_page.php" method="post">
+        <input type="text" id="username" placeholder="Usuari">
+        <div id="usernameError" style="color: red; display: none;">Camp obligatori</div>
+        <input type="email" id="email" placeholder="Correu electrònic">
+        <div id="emailError" style="color: red; display: none;">Correu invàlid</div>
+        <input type="password" id="password" placeholder="Contrasenya">
+        <div id="passwordError" style="color: red;"></div>
+        <input type="password" id="confirmPassword" placeholder="Confirma la contrasenya">
+        <div id="confirmPasswordError" style="color: red; display: none;">Les contrasenyes no coincideixen</div>
+        <input type="text" id="address" placeholder="Adreça postal" required>
+        <div id="addressError" style="color: red; display: none;">Camp obligatori</div>
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
